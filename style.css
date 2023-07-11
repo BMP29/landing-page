@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', Arial;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header > h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul, a {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
+}
