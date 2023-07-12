@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+/*mostly header-section*/
 .header-section {
     background-color: #1F2937;
     display: flex;
@@ -68,11 +69,12 @@ button {
     padding: 8px 25px;
 }
 
+
+/*photos-section*/
 .photos-section {
     text-align: center;
     padding-bottom: 100px;
 }
-
 
 .photos-section > h2 {
     font-size: 36px;
@@ -105,4 +107,29 @@ button {
 
 .photos-section ul li  > p {
     color: rgb(70, 70, 70);
+}
+
+.quote-section {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote-section > p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.quote-section > div {
+    color: #1F2937;
+    font-weight: bold;
+    margin-left: 630px;
 }
